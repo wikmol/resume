@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+body{   
+        background-color: #020202;
+        color:white;
+                    /*background-image: url('b.jpg');
+                    background-repeat: no-repeat;
+                    background-size:contain;*/
+        font-family:'Roboto Condensed', sans-serif;
+        animation: fadeInAnimation ease 6s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        overflow:auto
+
+ }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+h1 {
+    margin-top:2rem;
+    font-size:60px;
+    font-family:'Roboto Condensed', sans-serif;
+    position:absolute;
+    right: 3em;
+}
+
+
+    
+nav{
+    
+    position:fixed;
+    top:5em;
+    right:15em;
+    line-height:4em;
+    font-weight:600;
+    overflow: hidden;
+    
+    
+    
+    
+}
+
+a{ 
+    text-decoration:none;
+    color:aliceblue;
+    cursor:grab;
+    font-size:25px;
+    transition-duration:0.5s;
+    font-family:'roboto',sans-serif
+    
+}
+
+a:hover,a:visited{
+    
+    color:antiquewhite;
+    font-size:28px;
+    
+}
+
+
+
+
+#film {
+
+    float:left;
+    top: 200px;
+}
+
+#dwa {
+
+
+    border:2px solid white;
+    top:100px
+    margin
+    
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    font-size: 10px;
+
+
+}
+
+.box {
+
+    
+    width:80vw;
+    height:100vh;
+    background-image: url('photo/b.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    overflow-wrap: break-word;
+
+}
+
+form fieldset {
+    
+    position:absolute;
+    top:30vh;
+    width:30vw;
+    
+
+}
+
+input,textarea {
+    display: block;
+}
